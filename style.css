@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+}
+.metadeEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    width: 40%;
+    height: 100vh;
+}
+.imagem {
+    display: flex;
+    justify-content: Center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+.inputes {
+    display: flex;
+    flex-direction: column;
+    width: 61vh;
+}
+.logo {
+    width: 60vh;
+    height: 7vh;
+}
+.campos {
+    border-radius: 5px;
+    margin: 5px;
+    height: 30px;
+}
+.entrar {
+    width: 17vh;
+    height: 6vh;
+}
+.esquecisenha {
+    color: #2899DE;
+}
+
+.videoo {
+opacity: 0.9;
+} 
